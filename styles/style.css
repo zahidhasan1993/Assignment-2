@@ -20,6 +20,16 @@
     border: none;
     border-radius: 8px;
   }
+  .sec-btn{
+    width: 300px;
+    height: 180px;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    bottom: 120px;
+    right: 50px;
+  }
 
   .container{
     margin-bottom: 80px
@@ -130,3 +140,58 @@
  #color2{
     color: #727272;
  }
+ /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        explore styilng 
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+  .explore-features{
+    display: flex;
+    gap: 54px;
+    padding: 0 200px;
+  }
+  .explore-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 8px solid #ff900E;
+    padding-left: 20px;
+  }
+  .explore-p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+  }
+  .explore-image img{
+    width: 708px;
+    height: 982px;
+  }
+  .card{
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+  }
+  .cardpadding{
+    padding: 30px ;
+  }
+  .card-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+  }
+  .card-p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+  }
+  #year{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+  }
+  #ex{
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+  }
