@@ -21,6 +21,10 @@
     border-radius: 8px;
   }
 
+  .container{
+    margin-bottom: 80px
+  }
+  
 
   /*%%%%%%%%%%%%%%%%%%%%%%%%%
          header section
@@ -80,8 +84,49 @@
 }
 .banner-image{
     margin-bottom: 45px;
-}
-.banner-image img{
     width: 1440px;
     height: 700px;
 }
+.banner-image img{
+    width: 100%;
+    height: 100%;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+         feature styling
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+ .features{
+    display: flex;
+    gap: 70px;
+    padding: 0 200px;
+ }
+ .feature-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+ }
+ .feature-image img{
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+ }
+ .feature-info{
+    margin-top: 180px;
+ }
+ .feature-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+ }
+ .feature-p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+ }
+ #color1{
+    color: #FF900E;
+ }
+ #color2{
+    color: #727272;
+ }
