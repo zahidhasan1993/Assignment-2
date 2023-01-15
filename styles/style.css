@@ -335,3 +335,81 @@
    font-size: 20px;
    color: #424242;
  }
+
+
+
+ /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+       responsive style
+  %%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+  @media only screen and (max-width: 767px) {
+   /* header  */
+     .navbar{
+      padding: 0;
+     }
+     .nav-title{
+      font-size: 24px;
+     }
+     .nav-menu{
+      flex-direction: column;
+     }
+     .banner-title{
+      font-size: 24px;
+     }
+     .banner-p{
+      font-size: 12px;
+      display: none;
+     }
+     .banner-image{
+      width: auto;
+      height: auto;
+     }
+     /* feature  */
+     .features{
+      flex-direction: column;
+      gap: 5px;
+      padding: 0;
+     }
+     .card{
+      width: auto;
+     }
+     .feature-image{
+      grid-template-columns: repeat(1, 1fr);
+     }
+     /* explore  */
+     .explore-features{
+      flex-direction: column;
+      padding: 0;
+     }
+     .explore-image img{
+      width: 100%;
+      height: 100%;
+     }
+     .sec-btn{
+      right: -26px;
+     }
+     /* fact section  */
+     .fact{
+      padding: 0;
+     }
+     .fact-logos{
+      flex-direction: column;
+     }
+     /* sponsor section  */
+     .sponsor-p{
+      display: none;
+     }
+     .sponsor-image{
+      flex-direction: column;
+     }
+     .extra{
+      display: none;
+     }
+     /* footer  */
+     footer{
+      margin: auto;
+     }
+     .fot-p{
+      padding: 0;
+     }
+  }
